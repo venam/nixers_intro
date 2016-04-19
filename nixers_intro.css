@@ -1,0 +1,131 @@
+@font-face {
+	font-family: 'Aller-Light';
+	src:  url('Aller-Light.ttf.woff') format('woff'),
+	url('Aller-Light.ttf.svg#Aller-Light') format('svg'),
+	url('Aller-Light.ttf.eot'),
+	url('Aller-Light.eot?#iefix') format('embedded-opentype'); 
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lobster';
+	src:  url('Lobster.ttf.woff') format('woff'),
+	url('Lobster.ttf.svg#Lobster') format('svg'),
+	url('Lobster.ttf.eot'),
+	url('Lobster.eot?#iefix') format('embedded-opentype'); 
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	margin: 0px auto;
+	color: #303030;
+	background-color: #FFFFFF;
+	font-family: "Arial";
+	font-size: 1.15em;
+}
+
+header {
+	margin-bottom: 3em;
+}
+
+#logo {
+	display: block;
+	border-top: 0.3em solid #78c324;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-family: "Lobster";
+	font-size: 5em;
+	text-shadow: 1px 1px 2px #606060;
+	color: #303030;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+#logo:hover {
+	text-shadow: 1px 1px 2px #78c324;
+}
+
+#container {
+}
+
+#content, #social_i, #internal_i {
+	margin: 0px auto;
+	width: 80%;
+}
+
+#content {
+	margin-bottom: 4.5em;
+}
+
+.title {
+	font-family: "Aller-Light";
+	font-size: 2.5em;
+	margin-bottom: 1.2em;
+}
+
+.header {
+	font-family: "DejaVu Sans Mono";
+	font-size: 1.5em;
+	margin-bottom: 0.8em;
+	margin-top: 0.8em;
+}
+
+footer {
+}
+
+#internal, #social {
+	padding-top: 1em;
+	padding-bottom: 2.5em;
+	font-size: 1em;
+}
+
+#social {
+	background-color: #78c324;
+	color: #ffffff;
+	font-size: 1em;
+	border-bottom: 1.3em solid #6bae20;
+}
+
+#internal {
+	border-top: 1.3em solid #303030;
+	background-color: #212121;
+	color: #78c324;
+}
+
+#internal a {
+	padding-top: 0.5em;
+	text-decoration: none;
+	display: block;
+	color: #78c324;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #78c324;
+}
+
+#internal a:hover {
+	color: #FFF;
+}
+
+.code {
+	background-color: #212121;
+	border-radius: 0.5em;
+	border: 0.4em solid #78c324;
+	color: #d6d6d6;
+	padding: 0.5em;
+	margin-top: 1.4em;
+	margin-bottom: 1.4em;
+	font-family: "DejaVu Sans Mono";
+	font-size: 1em;
+}
+
+.code p {
+	word-wrap: break-word;
+}
+
